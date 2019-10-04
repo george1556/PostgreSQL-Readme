@@ -1,5 +1,3 @@
-# PostgreSQL-Readme
-
 # SQL Reference Sheet
 
 ## Creating a Database
