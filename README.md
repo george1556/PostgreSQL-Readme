@@ -115,11 +115,12 @@ Here are the different types of the JOINs in SQL:
 ![alt text](https://www.w3schools.com/sql/img_innerjoin.gif "Inner Join") ![alt text](https://www.w3schools.com/sql/img_leftjoin.gif "Left Join") ![alt text](https://www.w3schools.com/sql/img_rightjoin.gif "Right Join") ![alt text](https://www.w3schools.com/sql/img_fulljoin.gif "Full Outer Join")
 
 Example Tables:
-| OrderID | CustomerID | OrderDate |
-| --- | --- | --- |
-| 10308 | 2 | 1996-09-18 |
-| 10309 | 37 | 1996-09-19 |
-| 10310 | 77 | 1996-09-20 |
+
+| OrderID | CustomerID | OrderDate  |
+| ------- | ---------- | ---------- |
+| 10308   | 2          | 1996-09-18 |
+| 10309   | 37         | 1996-09-19 |
+| 10310   | 77         | 1996-09-20 |
 
 | CustomerID | CustomerName                       | ContactName    | Country |
 | ---------- | ---------------------------------- | -------------- | ------- |
@@ -135,10 +136,11 @@ INNER JOIN Customers ON Orders.CustomerID=Customers.CustomerID;
 ```
 
 Will Produce something like this:
-OrderID | CustomerName | OrderDate
---- | --- | ---
-10308 | Ana Trujillo Emparedados y helados | 9/18/1996
-10365 | Antonio Moreno Taquería | 11/27/1996
-10383 | Around the Horn | 12/16/1996
-10355 | Around the Horn | 11/15/1996
-10278 | Berglunds snabbköp | 8/12/1996
+
+| OrderID | CustomerName                       | OrderDate  |
+| ------- | ---------------------------------- | ---------- |
+| 10308   | Ana Trujillo Emparedados y helados | 9/18/1996  |
+| 10365   | Antonio Moreno Taquería            | 11/27/1996 |
+| 10383   | Around the Horn                    | 12/16/1996 |
+| 10355   | Around the Horn                    | 11/15/1996 |
+| 10278   | Berglunds snabbköp                 | 8/12/1996  |
